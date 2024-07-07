@@ -26,7 +26,8 @@ def login(usr,pwd):
         "api_key":user.api_key,
         "api_secret":api_generate,
         "username":user.username,
-        "email":user.email
+        "email":user.email,
+        "first_name":user.first_name
     }        
 
 def generate_keys(user):
