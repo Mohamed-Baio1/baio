@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include baio *.css
+recursive-include baio *.csv
+recursive-include baio *.html
+recursive-include baio *.ico
+recursive-include baio *.js
+recursive-include baio *.json
+recursive-include baio *.md
+recursive-include baio *.png
+recursive-include baio *.py
+recursive-include baio *.svg
+recursive-include baio *.txt
+recursive-exclude baio *.pyc
